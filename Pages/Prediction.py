@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import numpy as np 
 import matplotlib.pyplot as plt
 import seaborn as sns
 import altair as alt 
@@ -129,8 +128,8 @@ if st.button("Run Grid Search"):
     # Grid parameter
     param_grid = {
             'max_depth': [7, 10],
-            'learning_rate': [0.1, 0.01],
-            'n_estimators': [100, 200],
+            'learning_rate': [0.1],
+            'n_estimators': [100],
         }
 
     grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=3, n_jobs=-1, verbose=1)
