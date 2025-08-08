@@ -128,9 +128,9 @@ if st.button("Run Grid Search"):
 
     # Grid parameter
     param_grid = {
-            'max_depth': [5, 7],
-            'learning_rate': [0.1, 0.3],
-            'n_estimators': [50, 100]
+            'max_depth': [7, 10],
+            'learning_rate': [0.1, 0.01],
+            'n_estimators': [100, 200],
         }
 
     grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=3, n_jobs=-1, verbose=1)
@@ -145,3 +145,5 @@ if st.button("Run Grid Search"):
     y_pred = best_model.predict(X_test)
     acc = accuracy_score(y_test, y_pred)
     st.write(f"Accuracy: {acc:.4f}")
+    precision = precision_score(y_test, y_pred)
+    st.write(f"Precision: {precision:.4f}")
