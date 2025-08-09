@@ -23,7 +23,7 @@ st.set_page_config(
 st.sidebar.image("andito_l_50371.jpg", width=100)  # Replace with your logo URL
 
 st.title("Prediction")
-st.subheader("Model prediction")
+st.subheader("Model Prediction")
 st.write("This section demonstrates how to use the trained model to make predictions on new data. It includes input fields for the user to enter feature values and a button to generate predictions.")
 
 

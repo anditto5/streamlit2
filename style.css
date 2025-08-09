@@ -1,0 +1,9 @@
+my-app/
+│   main.py
+│   requirements.txt
+│
+└── pages/
+    │   Project_overview.py
+    │   Data_analytics.py
+    │   Model_Performance.py
+    │   Prediction.py 
