@@ -11,8 +11,9 @@ from sklearn.datasets import load_breast_cancer
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
 from sklearn.preprocessing import LabelEncoder
-import warnings
-warnings.filterwarnings("ignore")
+from utils import load_css
+
+load_css()
 
 
 st.set_page_config(

@@ -1,9 +1,17 @@
-my-app/
-│   main.py
-│   requirements.txt
-│
-└── pages/
-    │   Project_overview.py
-    │   Data_analytics.py
-    │   Model_Performance.py
-    │   Prediction.py 
+/* style.css - Shared for all pages */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #ff4b4b;
+}
+
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+}

@@ -1,18 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import altair as alt 
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.preprocessing import StandardScaler
-from xgboost import XGBClassifier
-from sklearn.datasets import load_breast_cancer
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
-from sklearn.preprocessing import LabelEncoder
+from utils import load_css
 
-
+load_css()
 
 st_setup = st.set_page_config(
     page_title="Profile",
