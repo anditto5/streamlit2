@@ -4,10 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import altair as alt 
-import warnings
-warnings.filterwarnings("ignore")
+from utils import load_css
 
-
+load_css()
 
 st_setup = st.set_page_config(
     page_title="Data Analysis",

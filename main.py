@@ -27,8 +27,11 @@ st.write("## Professional summary")
 st.write("""I am a passionate data scientist with a strong foundation in machine learning and Python development. I have experience in building  model for ECG Image Detection and insurance fraud. My expertise includes data analysis, model training, and optimization. I am always eager to learn new technologies and improve my skills in the field of data science.""")
 
 st.write("## Skills")
-st.write(" Hard skills = [Python, Machine Learning, Deep Learning, Data Analysis, Model Deployment, Data Visualization, SQL, Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Streamlit]")
+st.write(" Hard skills = [Machine Learning, Deep Learning, Data Analysis, Model Deployment, Data Visualization]")
 st.write("Soft skills = [Problem Solving, Critical Thinking, Communication, Teamwork, Adaptability, Time Management, Attention to Detail]")
+
+st.write("## Tools and Technologies")
+st.write("Python, Streamlit, Pandas, NumPy, Scikit-learn, TensorFlow, Keras, SQL, Git, Docker, Jupyter Notebook, Visual Studio Code")
 
 st.write("## Languages")
 st.write("English (Fluent), Bahasa Indonesia (Native), Japanese (basic)")
